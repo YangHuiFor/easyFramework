@@ -6,6 +6,8 @@
  * @createtime 2013-11-20 22:48:45
  * @version 
  */
+namespace Library;
+
 class Pager  
 {	
 	/*
