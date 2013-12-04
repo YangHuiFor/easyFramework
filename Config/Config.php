@@ -21,3 +21,4 @@ define('DEFAULT_ACTION','index');
 
 //资源，模板，模块，模型常量
 define('PATH_LIBRARY',PATH_BASE . 'Library' . DIRECTORY_SEPARATOR);
+define('PATH_DOWN',PATH_BASE . 'Down' . DIRECTORY_SEPARATOR);
