@@ -1,0 +1,8 @@
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{QUERY_STRING} ^(.+)$
+RewriteRule  ^([^/]*)/?([^/]*)/?([^/]*)$ index.php?mod=$1&ctl=$2&act=$3 [L]
+
+RewriteRule ^([^/]*)/?([^/]*)/?([^/]*)$ index.php?mod=$1&ctl=$2&act=$3 [L]
