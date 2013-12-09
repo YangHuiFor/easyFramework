@@ -18,7 +18,12 @@ define('ACTION','act');
 define('DEFAULT_MODULE','index');
 define('DEFAULT_CONTROLLER','index');
 define('DEFAULT_ACTION','index');
+define('CLASS_EXT', 'Controller');
+define('ACTION_EXT', 'Action');
 
 //资源，模板，模块，模型常量
 define('PATH_LIBRARY',PATH_BASE . 'Library' . DIRECTORY_SEPARATOR);
 define('PATH_DOWN',PATH_BASE . 'Down' . DIRECTORY_SEPARATOR);
+define('PATH_MODULE',PATH_BASE . 'Module' . DIRECTORY_SEPARATOR);
+define('PATH_MODEL',PATH_BASE . 'Model' . DIRECTORY_SEPARATOR);
+define('PATH_VIEW',PATH_BASE . 'View' . DIRECTORY_SEPARATOR);
